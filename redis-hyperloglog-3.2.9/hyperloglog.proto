@@ -1,0 +1,8 @@
+package gunir;
+
+message HyperLogLog {
+    optional string magic = 1;
+    required uint32 encoding = 2;  // DENCE or SPARSE
+    repeated uint32 card = 3;      // Cached cardinality, little endian
+    repeated uint32 registers = 4; // Data bytes
+}

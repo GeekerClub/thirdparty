@@ -1,0 +1,7 @@
+Should be add the libraries as following path:
+
+        deleted:    lib64_debug/libhdfs.a
+        deleted:    lib64_debug/libjvm.a
+        deleted:    lib64_debug/libjvm.so
+        deleted:    lib64_release/libhdfs.a
+        deleted:    lib64_release/libjvm.a

@@ -5,7 +5,7 @@ Put thirdparty library for toft
 
 Focked and updated from: https://github.com/chen3feng/thirdparty
 
-Contributed by:
+Newly contributed by:
 
     * Yin Haibo
     * Liu Cheng

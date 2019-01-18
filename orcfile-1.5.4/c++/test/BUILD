@@ -5,7 +5,7 @@ cc_library(
            'MemoryInputStream.cc'
     ],
     deps = [
-           '//:ocr',
+           '//:orc',
            '//thirdparty/protobuf:protobuf',
            '//thirdparty/gtest:gtest',
            '//thirdparty/snappy:snappy',
@@ -22,7 +22,7 @@ cc_test(
     ],
    deps = [
            ':memory_io_stream',
-           '//:ocr',
+           '//:orc',
            '//thirdparty/protobuf:protobuf',
            '//thirdparty/gtest:gtest',
            '//thirdparty/snappy:snappy',
@@ -38,7 +38,7 @@ cc_test(
     ],
    deps = [
            ':memory_io_stream',
-           '//:ocr',
+           '//:orc',
            '//thirdparty/protobuf:protobuf',
            '//thirdparty/gtest:gtest',
            '//thirdparty/snappy:snappy',
@@ -55,7 +55,7 @@ cc_test(
     ],
    deps = [
            ':memory_io_stream',
-           '//:ocr',
+           '//:orc',
            '//thirdparty/protobuf:protobuf',
            '//thirdparty/gtest:gtest',
            '//thirdparty/snappy:snappy',
@@ -73,7 +73,7 @@ cc_test(
     ],
    deps = [
            ':memory_io_stream',
-           '//:ocr',
+           '//:orc',
            '//thirdparty/protobuf:protobuf',
            '//thirdparty/gtest:gtest',
            '//thirdparty/snappy:snappy',
@@ -91,7 +91,7 @@ cc_test(
     ],
    deps = [
            ':memory_io_stream',
-           '//:ocr',
+           '//:orc',
            '//thirdparty/protobuf:protobuf',
            '//thirdparty/gtest:gtest',
            '//thirdparty/snappy:snappy',
@@ -108,7 +108,7 @@ cc_test(
     ],
    deps = [
            ':memory_io_stream',
-           '//:ocr',
+           '//:orc',
            '//thirdparty/protobuf:protobuf',
            '//thirdparty/gtest:gtest',
            '//thirdparty/snappy:snappy',
@@ -125,7 +125,7 @@ cc_test(
 #     ],
 #    deps = [
 #            ':memory_io_stream',
-#            '//:ocr',
+#            '//:orc',
 #            '//thirdparty/protobuf:protobuf',
 #            '//thirdparty/gtest:gtest',
 #            '//thirdparty/snappy:snappy',
@@ -142,7 +142,7 @@ cc_test(
     ],
    deps = [
            ':memory_io_stream',
-           '//:ocr',
+           '//:orc',
            '//thirdparty/protobuf:protobuf',
            '//thirdparty/gtest:gtest',
            '//thirdparty/snappy:snappy',
@@ -158,7 +158,7 @@ cc_test(
     ],
    deps = [
            ':memory_io_stream',
-           '//:ocr',
+           '//:orc',
            '//thirdparty/protobuf:protobuf',
            '//thirdparty/gtest:gtest',
            '//thirdparty/snappy:snappy',
@@ -174,7 +174,7 @@ cc_test(
     ],
    deps = [
            ':memory_io_stream',
-           '//:ocr',
+           '//:orc',
            '//thirdparty/protobuf:protobuf',
            '//thirdparty/gtest:gtest',
            '//thirdparty/snappy:snappy',
@@ -191,7 +191,7 @@ cc_test(
     ],
    deps = [
            ':memory_io_stream',
-           '//:ocr',
+           '//:orc',
            '//thirdparty/protobuf:protobuf',
            '//thirdparty/gtest:gtest',
            '//thirdparty/snappy:snappy',
@@ -209,7 +209,7 @@ cc_test(
     ],
    deps = [
            ':memory_io_stream',
-           '//:ocr',
+           '//:orc',
            '//thirdparty/protobuf:protobuf',
            '//thirdparty/gtest:gtest',
            '//thirdparty/snappy:snappy',
@@ -226,7 +226,7 @@ cc_test(
     ],
    deps = [
            ':memory_io_stream',
-           '//:ocr',
+           '//:orc',
            '//thirdparty/protobuf:protobuf',
            '//thirdparty/gtest:gtest',
            '//thirdparty/snappy:snappy',
@@ -243,7 +243,7 @@ cc_test(
     ],
    deps = [
            ':memory_io_stream',
-           '//:ocr',
+           '//:orc',
            '//thirdparty/protobuf:protobuf',
            '//thirdparty/gtest:gtest',
            '//thirdparty/snappy:snappy',
@@ -260,7 +260,7 @@ cc_test(
     ],
    deps = [
            ':memory_io_stream',
-           '//:ocr',
+           '//:orc',
            '//thirdparty/protobuf:protobuf',
            '//thirdparty/gtest:gtest',
            '//thirdparty/snappy:snappy',

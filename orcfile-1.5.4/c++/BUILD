@@ -4,7 +4,7 @@ proto_library(
 )
 
 cc_library(
-    name = 'ocr',
+    name = 'orc',
     srcs = [
         'src/Writer.cc',
         'src/Common.cc',
